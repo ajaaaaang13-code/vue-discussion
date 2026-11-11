@@ -128,7 +128,7 @@
                         <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=centro%20escolar%20university%20manila&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                     </div>
                     <div class="col-md-6">
-                        <form @submit.prevet ="submitForm">
+                        <form @submit.prevent ="submitForm">
                             <div class="mb-3">
                                 <input v-model="name" type="text" class="form-control contact-form-control" placeholder="First Name M.I. Last Name">
                             </div>
